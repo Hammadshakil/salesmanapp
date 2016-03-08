@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="./bower_components/angular-material/angular-material.css">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <script src="./bower_components/angular/angular.js"></script>
+    <script src="./bower_components/angular-aria/angular-aria.js"></script>
+    <script src="./bower_components/angular-animate/angular-animate.js"></script>
+    <script src="./bower_components/angular-material/angular-material.js"></script>
+    <script src="./bower_components/firebase/firebase.js"></script>
+    <script src="./bower_components/angularfire/dist/angularfire.min.js"></script>
+    <script src="./bower_components/angular-new-router/dist/router.es5.js"></script>
+
+    <script src="js/index.js"></script>
+    <script src="./components/login/login.js"></script>
+    <script src="./components/signup/signup.js" ></script>
+    <script src="./components/addsalesman/addsalesman.js"></script>
+
+</head>
+<style>
+
+</style>
+<body ng-app="duapp">
+    <div ng-controller="AppCtrl">
+        <md-toolbar>
+            <h4>
+                &nbsp;Salesman App
+
+                <md-button class="">
+                    <a ng-link="/"> login</a>
+                </md-button>
+            </h4>
+        </md-toolbar>
+
+        <div>
+
+
+                <md-button class="">
+                    <a href="/signup">Signup</a>
+                </md-button>
+            <md-button class="">
+                <a href="/addsalesman">Add salesman</a>
+            </md-button>
+
+        </div>
+        <section flex layout="row">
+            <div flex="5" flxed layout="column"> </div>
+            <div flex="90" flxed layout="column">
+
+                <ng-viewport></ng-viewport>
+
+            </div>
+            <div flex="5" flxed layout="column"> </div>
+        </section>
+
+
+    </div>
+</body>
+</html>

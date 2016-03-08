@@ -1,0 +1,98 @@
+
+
+
+<div ng-controller="AddsalesmanController as a">
+
+
+
+    <div ng-cloak>
+        <md-content>
+            <md-tabs md-dynamic-height md-border-bottom>
+                <md-tab label="Profile">
+                    <md-content class="md-padding">
+                        <h1 class="md-display-2">ABCD company</h1>
+                        <div  >
+                            <br/>
+                            <md-content class="autoScroll">
+                                <md-content class="autoScroll">
+                                    <md-input-container class=" md-block">
+                                        <label>Name</label>
+                                        <input ng-model="g" type="text">
+                                    </md-input-container>
+                                    <md-input-container class=" md-block">
+                                        <label>Phone Number</label>
+                                        <input ng-model="" type="text">
+                                    </md-input-container>
+                                    <md-input-container class=" md-block">
+                                        <label>Address</label>
+                                        <input ng-model="" type="text">
+                                    </md-input-container>
+                                    <md-input-container class=" md-block">
+                                        <label>Email</label>
+                                        <input ng-model="" type="text">
+                                    </md-input-container>
+                                    <md-input-container class=" md-block">
+                                        <label>Comapny desccription</label>
+                                        <input ng-model="" type="text">
+                                    </md-input-container>
+
+                                <md-button ng-click="">Update</md-button>
+                            </md-content>
+                        </div>
+
+                    </md-content>
+                </md-tab>
+                <md-tab label="Add Salesman">
+                    <md-content class="md-padding">
+                        <h1 class="md-display-2">About Salesman</h1>
+                        <div  >
+                            <br/>
+                            <md-content class="autoScroll">
+                                <md-input-container class=" md-block">
+                                    <label>Name</label>
+                                    <input ng-model="a.salesman.name" type="text">
+                                </md-input-container>
+                                <md-input-container class=" md-block">
+                                    <label>Phone Number</label>
+                                    <input ng-model="a.salesman.phone" type="text">
+                                </md-input-container>
+                                <md-input-container class=" md-block">
+                                    <label>Address</label>
+                                    <input ng-model="a.salesman.address" type="text">
+                                </md-input-container>
+                                <md-input-container class=" md-block">
+                                    <label>Email</label>
+                                    <input ng-model="a.salesman.email" type="text">
+                                </md-input-container>
+                                <md-input-container class=" md-block">
+                                    <label>CNIC</label>
+                                    <input ng-model="a.salesman.cnic" type="text">
+                                </md-input-container>
+                                <md-input-container class=" md-block">
+                                    <label>Age</label>
+                                    <input ng-model="a.salesman.age" type="text">
+                                </md-input-container>
+                                <md-input-container class=" md-block">
+                                    <label>Working hour</label>
+                                    <input ng-model="a.salesman.working" type="text">
+                                </md-input-container>
+                                <md-button ng-click="a.addsalesman()">ADD</md-button>
+                            </md-content>
+                        </div>
+
+
+                    </md-content>
+                </md-tab>
+                <md-tab label="View Report">
+                    <md-content class="md-padding">
+                        <h1 class="md-display-2">Tab Three</h1>
+                        <p>Integer turpis erat, porttitor vitae mi faucibus, laoreet interdum tellus. Curabitur posuere molestie dictum. Morbi eget congue risus, quis rhoncus quam. Suspendisse vitae hendrerit erat, at posuere mi. Cras eu fermentum nunc. Sed id ante eu orci commodo volutpat non ac est. Praesent ligula diam, congue eu enim scelerisque, finibus commodo lectus.</p>
+                    </md-content>
+                </md-tab>
+            </md-tabs>
+        </md-content>
+    </div>
+
+
+
+</div>

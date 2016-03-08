@@ -1,0 +1,34 @@
+
+
+<div ng-controller="LoginController as l">
+
+
+<md-toolbar class=" md-accent"><h3>&nbsp;Hammad</h3></md-toolbar>
+
+    <section flex layout="row">
+        <div flex="5" flxed layout="column"> </div>
+        <div flex="90" flxed layout="column">
+
+            <div  >
+                <br/>
+                <md-content class="autoScroll">
+
+                    <md-input-container class="md-block">
+
+                        <input ng-model="user.email" type="email" placeholder="Email (required)" ng-required="true">
+                    </md-input-container>
+
+                    <md-input-container md-no-float class="md-block">
+
+                        <input ng-model="user.pass" type="text" placeholder="Password" ng-required="true">
+                    </md-input-container>
+                    <md-button>Login</md-button>
+                </md-content>
+            </div>
+
+        </div>
+        <div flex="5" flxed layout="column"> </div>
+    </section>
+
+
+</div>
